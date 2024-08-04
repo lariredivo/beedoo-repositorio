@@ -111,7 +111,7 @@ As decisões foram baseadas em diversos pontos cruciais. Primeiramente, consider
 * Passo 12: Clicar no botão "Cadastrar curso"
 * Passo 13: Confirmar a exibição da mensagem de erro indicando que o curso já foi cadastrado anteriormente. A mensagem deve ser: "Erro: Este curso já está cadastrado. Por favor, verifique os dados e tente novamente."
 
-**Caso 2: Falha no cadastro de curso devido a campo obrigatório não preenchido** 
+**Caso 3: Falha no cadastro de curso devido a campo obrigatório não preenchido** 
 * Dado que o administrador está na página de cadastro de curso
 * Quando o administrador não preenche todos os campos obrigatórios
 * E clica no botão "Cadastrar curso"
@@ -131,7 +131,7 @@ As decisões foram baseadas em diversos pontos cruciais. Primeiramente, consider
 * Passo 11: Clicar no botão "Cadastrar curso"
 * Passo 12: Confirmar a exibição da mensagem de erro indicando que o curso não pode ser criado sem nenhuma informação. A mensagem deve ser: "Erro: Preencha as informações obrigatórias e tente novamente."
 
-**Caso 3: Validação dos campos do formulário de cadastro de curso**
+**Caso 4: Validação dos campos do formulário de cadastro de curso**
 * Dado que o administrador está na página de cadastro de curso
 * Quando o administrador preenche os campos do formulário com valores inválidos
 * Então o sistema deve impedir a criação do curso
